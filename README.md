@@ -7,7 +7,7 @@
  * 通过预处理机制实现单元测试自动生成
  * 自动生成接口文档
  * 自动生成函数内和函数间调用框图
- * 自动完成 GUI 测试及截图
+ * 自动完成 GUI 测试及截图 
  * 根据模板自动生成实验报告
 
  **老子受不了比代码还神烦的实验报告！！！老子要自动化！！！自动化！！！**
@@ -21,6 +21,7 @@
 ### 项目构建
  * [Gulp](http://gulpjs.com/)
  * [Mustache](https://mustache.github.io)
+ * [LibYAML](http://pyyaml.org/wiki/LibYAML)
  
 ### 流程图
  * [Mermaid](https://knsv.github.io/mermaid/index.html)
