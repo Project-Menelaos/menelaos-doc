@@ -15,7 +15,8 @@
 ## 技术栈（暂定）
 
 ### 语言编译器
- * Flex & Bison
+ * [Flex](https://www.gnu.org/software/flex/)
+ * [GNU Bison](https://www.gnu.org/software/bison/)
 
 ### 项目构建
  * [Gulp](http://gulpjs.com/)
@@ -27,10 +28,10 @@
 
 ### 测试
  * [cmocka](https://cmocka.org/)
- * //[Robot Framework](http://robotframework.org/)
+ * ~~[Robot Framework](http://robotframework.org/)~~
 
 ### 文档生成
- * 
+ * [Pandoc](http://pandoc.org/)
 
 ## 关于计划的名字
 
