@@ -1,6 +1,10 @@
 # 墨涅拉俄斯计划
 
-通过一种类 C 语言（C 田，Restricted C+），实现：
+ **老子受不了比代码还神烦的实验报告！！！老子要自动化！！！自动化！！！**
+
+通过 [Restricted C+](https://github.com/Project-Menelaos/Restricted-C-plus-spec) 实现：
+
+## 长期目标
 
  * 实时监测代码修改，同步编译到 C 语言工程
  * 完善的跨平台跨 IDE 预处理机制
@@ -10,7 +14,15 @@
  * 自动完成 GUI 测试及截图 
  * 根据模板自动生成实验报告
 
- **老子受不了比代码还神烦的实验报告！！！老子要自动化！！！自动化！！！**
+## 最小可行产品
+
+ * 在 C 语言基础上增加：
+   * 内嵌精确到函数的文档
+   * 内嵌单元测试数据
+   * AST 模板
+   * 终端下的字符界面 UI 描述语言 / 模板引擎
+ * 自动提取和生成格式化文档
+ * 通过字符界面 UI 描述自动生成仿造截图
  
 ## 技术栈（暂定）
 
@@ -20,7 +32,6 @@
 
 ### 项目构建
  * [Gulp](http://gulpjs.com/)
- * [Mustache](https://mustache.github.io)
  * [LibYAML](http://pyyaml.org/wiki/LibYAML)
  
 ### 流程图
@@ -31,7 +42,8 @@
  * [cmocka](https://cmocka.org/)
  * ~~[Robot Framework](http://robotframework.org/)~~
 
-### 文档生成
+### 模板引擎
+ * [Mustache](https://mustache.github.io)
  * [Pandoc](http://pandoc.org/)
 
 ## 关于计划的名字
